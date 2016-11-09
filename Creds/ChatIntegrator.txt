@@ -1,1 +1,0 @@
-<iframe src="https://webchat.botframework.com/embed/samplehellobot?s=7wMXHWXJEJI.cwA.1SA.w85JaPXfZaAC_nTEmwqnrR0BXLfBBMnHdHzq1dWgWpw" style="height: 502px; max-height: 502px;"></iframe>

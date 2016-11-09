@@ -24,5 +24,14 @@ server.post('/api/messages', connector.listen());
 //=========================================================
 
 bot.dialog('/', function (session) {
-    session.send("Hello World");
+    //session.send("Hello World");
+    session.send("<html>" +
+        "< head >" +
+        "<meta charset=\"ISO-8859-1\">" +
+            "<title>Sample Hello BOT</title>" +
+        "</head>" +
+        "<body>" +
+            "<h2> SUCCESS </h2>" +
+        "</body>" +
+"</html >");
 });

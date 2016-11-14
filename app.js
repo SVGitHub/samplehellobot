@@ -32,6 +32,7 @@ intents.matches(/(Outlet|Store) Visit/i, [
 intents.matches(/thank/i, [
     function (session) {
         session.send('No worries buddy!');
+        session.send('Anything else I can assist you with?');
     }
 ]);
 
@@ -64,7 +65,7 @@ intents.matches(/^ok/i, [
 
 intents.matches(/^No/i, [
     function (session) {
-        session.send('Hmm...');
+        session.send('Hmm... Cya then %s', session.userData.name);
     }
 ]);
 

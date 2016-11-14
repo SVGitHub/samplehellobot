@@ -70,7 +70,7 @@ intents.matches(/^No/i, [
 
 intents.matches(/^Yes/i, [
     function (session) {
-        session.send('Please lay down your query?');
+        session.send('Please lay down your query.');
     }
 ]);
 
